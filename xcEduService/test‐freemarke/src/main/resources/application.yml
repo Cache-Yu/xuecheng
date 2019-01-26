@@ -1,0 +1,10 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: test-freemarker
+  freemarker:
+    mongodb:
+      cache: false
+      settings:
+        template_update_delay: 0
